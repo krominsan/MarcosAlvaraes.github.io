@@ -1,0 +1,65 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #eef2f5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #333;
+}
+
+/* Barra superior institucional */
+.top-bar {
+    background-color: #004080;
+    color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.top-bar .logo {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.top-bar .curso {
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+/* Títulos */
+h1, h2 {
+    color: #1f3a5f;
+    margin-top: 30px;
+}
+
+/* Formador */
+.formador-container {
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+iframe {
+    width: 120px;
+    height: 140px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    transition: transform 0.2s ease;
+}
+
+iframe:hover {
+    transform: scale(1.05);
+}
